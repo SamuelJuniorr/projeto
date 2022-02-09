@@ -35,14 +35,14 @@ header{
 header > h1{
     color:white;
     font-family: var(--fontedestaque);
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
 }
 header > p {
     color: white;
     font-family: var(--fontepadrao);
-    font-size: 1.2em;
+    font-size: 1.0em;
     max-width: 500px;
     margin: auto;
     padding-right: 10px;
@@ -58,6 +58,7 @@ nav {
     margin: auto;
 }
 nav > a {
+    font-size: 1em;
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -71,8 +72,8 @@ nav > a:hover {
 }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 400px;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
     background-color: white;
@@ -82,10 +83,10 @@ main {
 }
 
 main h1 {
-    color: black;
-    font-family: var(--fontepadrao);
+    color: rgb(8, 63, 11);
+    font-family: fantasy;
     font-size: 2em;
-    font-weight: bold;
+    font-weight: normal;
 }
 main h2{
     font-family: var(--fonteandroid);
