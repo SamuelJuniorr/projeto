@@ -127,8 +127,8 @@ main > img {
     justify-content: center;
 }
 .img1{
-    display: flex;
-    justify-content: center;
+    display: block;
+    width: 100%;
 }
 .android {
     display: flex;
