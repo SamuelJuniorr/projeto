@@ -131,8 +131,8 @@ main > img {
     width: 100%;
 }
 .android {
-    display: flex;
-    justify-content: center;
+    display: block;
+    width: 100%;
 }
 .android > img {
     max-width: 500px;
